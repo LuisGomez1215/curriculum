@@ -1,0 +1,15 @@
+.fijo{
+   
+    width: 75px; /* Ancho del cuadro */
+    background-color: #a05454; /* Color de fondo del cuadro */
+    border-radius: 10px; /* Radio de las esquinas */
+    position: fixed; /* Fija la posición del cuadro */
+    top: 50%; /* Centra verticalmente */
+    left: 50%; /* Centra horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta el centro */
+    padding: 20px; /* Agrega espacio interno para los botones */
+    box-sizing: border-box; /* Incluye el espacio del borde y el relleno en el tamaño total */
+    display: flex; /* Usa flexbox para el diseño */
+    flex-direction: column; /* Apila los botones verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    }
