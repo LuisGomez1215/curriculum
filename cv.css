@@ -1,15 +1,45 @@
-.fijo{
-   
-    width: 75px; /* Ancho del cuadro */
-    background-color: #a05454; /* Color de fondo del cuadro */
-    border-radius: 10px; /* Radio de las esquinas */
-    position: fixed; /* Fija la posición del cuadro */
-    top: 50%; /* Centra verticalmente */
-    left: 50%; /* Centra horizontalmente */
-    transform: translate(-50%, -50%); /* Ajusta el centro */
-    padding: 20px; /* Agrega espacio interno para los botones */
-    box-sizing: border-box; /* Incluye el espacio del borde y el relleno en el tamaño total */
-    display: flex; /* Usa flexbox para el diseño */
-    flex-direction: column; /* Apila los botones verticalmente */
-    align-items: center; /* Centra los elementos horizontalmente */
-    }
+
+.sidenav{
+    height: 100%;
+    width: 125px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3b2bce;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    color: rgb(255, 255, 255);
+}
+.sidenav a:hover{
+    letter-spacing: 2px;
+    color: white;
+    background-color: rgb(60, 218, 196);
+}
+.main{
+    margin-left: 250px;
+    padding: 10px 10px;
+    display: none;
+}
+
+.main:hover{
+
+}
+.box{
+    background-color: deeppink;
+    color : white;
+    height: 100px;width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 5px;
+}
